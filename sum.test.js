@@ -8,3 +8,6 @@ test("adds 5 + 7 to equal 12", () => {
   expect(sum(5, 7)).toBe(12);
 });
 //Testing Jenkins CI
+test("adds 10 + 20 to equal 30", () => {
+  expect(sum(10, 20)).toBe(30);
+});
